@@ -33,6 +33,10 @@ public class InforController {
         return "show";
     }
 
-    String book;
+
+    @RequestMapping("/add.do")
+    public void add(Infor infor){
+
+    }
 
 }
