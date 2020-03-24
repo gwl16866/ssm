@@ -36,8 +36,8 @@ public class InforController {
 
     @RequestMapping("/add.do")
     public void add(Infor infor){
-
         System.out.println();
+        System.out.println("cglib");
     }
 
 }
