@@ -24,6 +24,8 @@ import java.util.List;
 @Controller
 @RequestMapping("/customer")
 public class InforController {
+    int a;
+    int b;
     @Autowired
     private IInforService iInforService;
 
