@@ -33,4 +33,6 @@ public class InforController {
         return "show";
     }
 
+    String book;
+
 }
