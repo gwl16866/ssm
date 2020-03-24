@@ -33,4 +33,9 @@ public class InforController {
         return "show";
     }
 
+    @RequestMapping("/add.do")
+    public void add(Infor infor){
+
+    }
+
 }
